@@ -7,7 +7,7 @@ install:
 - pip install twine
 - pip install .
 script: ls
-before_deploy: "python setup.py sdist"
+before_deploy: "python setup.py egg_info -b .dev${TRAVIS_BUILD_NUMBER} sdist"
 deploy:
   provider: script
   script: twine upload --repository-url ${PYPI_URL} --username ${PYPI_USER} --password ${PYPI_PASSWORD} dist/*
