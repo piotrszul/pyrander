@@ -11,5 +11,6 @@ before_deploy: "python setup.py sdist"
 deploy:
   provider: script
   script: twine upload --repository-url ${PYPI_URL} --username ${PYPI_USER} --password ${PYPI_PASSWORD} dist/*
+  skip_cleanup: true
   on:
     all_branches: true  
