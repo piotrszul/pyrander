@@ -1,5 +1,9 @@
 env:
   PYPI_URL: https://test.pypi.org/legacy/
+cache:
+  directories:
+  - "$HOME/.cache/pip"
+  - "$HOME/.pyenv"
 language: python
 python:
 - '2.7'
