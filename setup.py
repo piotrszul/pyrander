@@ -9,5 +9,10 @@ setup(
   url = 'https://github.com/piotrszul/pyrander',
   keywords = ['testing', 'logging', 'example'], # arbitrary keywords
   classifiers = [],
+  extras_require = {
+    'test': [ 
+      'pyspark==2.1.2', 
+    ],
+  },
   license = "MIT",
 )
