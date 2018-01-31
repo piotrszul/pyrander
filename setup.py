@@ -1,6 +1,6 @@
 from setuptools import setup 
 setup(
-  name = 'pyrander',
+  name = 'pyranderx',
   packages = ['pyrander'], # this must be the same as the name above
   version = '0.0.2',
   description = 'A random test lib',
