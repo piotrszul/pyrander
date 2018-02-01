@@ -2,7 +2,7 @@ from setuptools import setup
 setup(
   name = 'pyranderx',
   packages = ['pyrander'], # this must be the same as the name above
-  version = '0.0.2',
+  version = '0.0.2a0',
   description = 'A random test lib',
   author = 'Piotr Szul',
   author_email = 'piotr.szul@csiro.au',
