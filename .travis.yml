@@ -8,6 +8,8 @@ language: java
 python:
 - '2.7'
 install:
+- source ~/virtualenv/python2.7/bin/activate
+- python --version
 - pip install twine
 - pip install .[test]
 script: ls
