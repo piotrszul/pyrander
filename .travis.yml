@@ -4,7 +4,7 @@ cache:
   directories:
   - "$HOME/.cache/pip"
 #  - "$HOME/.pyenv"
-language: python
+language: java 
 python:
 - '2.7'
 install:
